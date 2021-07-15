@@ -4,5 +4,6 @@ icon: fas fa-info
 order: 4
 ---
 
+Solutions Architect with 15+ years of knowledge of programming and systems administration.  Currently developing a deeper knowledge of distributed systems and large system design.
 
-> **Note**: Add Markdown syntax content to file `_tabs/about.md` and it will show up on this page.
+Currently working as a Client Solutions Architect at [DoubleVerify](https://www.doubleverify.com)
