@@ -1,9 +1,12 @@
 ---
 title: Sunsetting AMZ.report / Big Data Learnings
-author: Chris Geiger
-date: 2021-12-28 12:00:00
+author:
+  name: Chris Geiger
+  link: https://twitter.com/chrisgeiger
+date: 2021-12-28 12:00:00 -0700
 categories: [Programming,DevOps]
 tags: [bigdata,amazon,programming]
+pin: true
 ---
 
 Today I sunset the AMZ.report platform.  Building this platform was a lot of fun and came with a lot of learnings.  
