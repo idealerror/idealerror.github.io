@@ -7,7 +7,7 @@ tags: [bigdata,amazon,programming]
 pin: true
 ---
 
-Today I sunset the AMZ.report platform.  Building this platform was a lot of fun and came with a lot of learnings.
+Today I sunset the AMZ.report platform.  Building this platform was a lot of fun and came with a lot of learnings.  I launched the platform in late 2020 but had started building the database before that.  I also built a simpler version of this when I was working in a prior role at an Amazon-focused advertising agency.
 
 Some quick stats of the data I was able to aggregate:
 
@@ -30,6 +30,5 @@ This was a very simplified build with no high availability, fault tolerance, etc
 
 This definitely benefited a lot of people who used the platform, but it did not generate any revenue, so with that, it's been sunset.
 
-I did back up the code and the data in the event that if I need to re-deploy it in the future - I can.
 
 Feel free to reach out if you have any questions.  My contact information can be found on the bottom of the page sidebar.
