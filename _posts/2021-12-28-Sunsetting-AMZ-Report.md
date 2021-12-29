@@ -1,9 +1,7 @@
 ---
 title: Sunsetting AMZ.report / Big Data Learnings
-author:
-  name: Chris Geiger
-  link: https://twitter.com/chrisgeiger
-date: 2021-12-28 11:33:00 +0800
+author: Chris Geiger
+date: 2021-12-28 11:33:00 -0700
 categories: [Programming,DevOps]
 tags: [bigdata,amazon,programming]
 pin: true
