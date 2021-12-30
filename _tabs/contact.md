@@ -1,5 +1,5 @@
 ---
-title: Contact Me
+title: Contact
 icon: fas fa-info-circle
 order: 5
 ---
