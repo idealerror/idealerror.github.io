@@ -2,7 +2,7 @@
 title: Sunsetting AMZ.report / Big Data Learnings
 author: Chris Geiger
 date: 2021-12-28 11:33:00 -0700
-categories: [Programming]
+categories: [Projects]
 tags: [bigdata,amazon,programming]
 ---
 

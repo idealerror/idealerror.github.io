@@ -2,7 +2,7 @@
 title: Running Laravel in Docker with supervisord
 author: Chris Geiger
 date: 2021-07-18 12:00:00 -0700
-categories: [Programming,DevOps]
+categories: [DevOps,Docker]
 tags: [laravel,docker,programming]
 math: true
 mermaid: true
