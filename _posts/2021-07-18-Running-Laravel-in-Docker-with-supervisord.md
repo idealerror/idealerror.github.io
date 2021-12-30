@@ -12,10 +12,10 @@ image:
   height: 400
 ---
 
-Ask any DevOps or Systems Engineer and they'll agree that a Docker container should only run a single process.  This is because of the single process dies, the container should die with it.  What if you need to run multiple processes on a single container?  Well that's where supervisord comes in.  
+Ask any DevOps or Systems Engineer and they'll agree that a Docker container should only run a single process.  This is because of the single process dies, the container should die with it.  What if you need to run multiple processes on a single container?  Well that's where supervisord comes in.
 
 # What is supervisord?
-Supervisord is a linux application/service that allows you to run multiple applications as background processes (or foreground processes) utilizing a single service.  With this, supervisord will also monitor and restart processes if they fail.  Supervisord also has the ability to control 
+Supervisord is a linux application/service that allows you to run multiple applications as background processes (or foreground processes) utilizing a single service.  With this, supervisord will also monitor and restart processes if they fail.  Supervisord also has the ability to control
 - When an application starts
 - Where an application logs to
 - What user the application runs as
@@ -25,7 +25,7 @@ Laravel has multiple processes that utilize the same codebase such as the schedu
 
 # How to implement supervisord on Docker
 ## Dockerfile
-It's fairly simple, you just need to make sure that you install supervisord and start it at the end of the Dockerfile. 
+It's fairly simple, you just need to make sure that you install supervisord and start it at the end of the Dockerfile.
 
 Here's an example utilizing the image `php:7.4-apache`
 
@@ -42,11 +42,11 @@ RUN mkdir -p /var/log/supervisor
 COPY --chown=root:root supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
 # Start supervisord
-`CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/supervisord.conf"]`
+CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/supervisord.conf"]
 ```
 
-## supervisord.conf 
-As mentioned above, the supervisord.conf file contains all of the applications that will be running on the container.  Below you will see that I've separated it out into 3 processes: worker, apache2, and schedule.  Apache starts first with the priority 1, then worker, then schedule.  Schedule is actually using a bash script instead of cron because cron uses it's own environment variables. 
+## supervisord.conf
+As mentioned above, the supervisord.conf file contains all of the applications that will be running on the container.  Below you will see that I've separated it out into 3 processes: worker, apache2, and schedule.  Apache starts first with the priority 1, then worker, then schedule.  Schedule is actually using a bash script instead of cron because cron uses it's own environment variables.
 
 ```bash
 [supervisord]
