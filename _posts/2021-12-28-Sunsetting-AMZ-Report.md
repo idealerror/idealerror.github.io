@@ -4,7 +4,6 @@ author: Chris Geiger
 date: 2021-12-28 11:33:00 -0700
 categories: [Programming]
 tags: [bigdata,amazon,programming]
-pin: true
 ---
 
 Today I sunset the AMZ.report platform.  Building this platform was a lot of fun and came with a lot of learnings.  I launched the platform in late 2020 but had started building the database before that.  I also built a simpler version of this when I was working in a prior role at an Amazon-focused advertising agency.
