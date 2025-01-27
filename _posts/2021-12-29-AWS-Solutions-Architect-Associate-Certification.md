@@ -17,19 +17,21 @@ I had a great experience going through the A Cloud Guru training as a refresher 
 ## [Udemy](https://www.udemy.com/) - Not Free
 If you're already used to Udemy, there are a TON of great classes on Udemy that can help you pass the SAA exam.  I had originally watched the A Cloud Guru class on Udemy years ago prior to using their website.
 
-## [AWS Skill Builder](https://explore.skillbuilder.aws/learn) - Free
+## [AWS Skill Builder](https://explore.skillbuilder.aws/learn) - Free/Paid
 AWS Skill Builder has a ton of great training resources you can go through to cover a majority of the topics you need to know.
 
 ## [Amazon AWS Training](https://www.amazon.com/aws-courses/) - Free
 These are the new courses offered on Amazon.com.
 
 # Practice Exams
-## [Whizlabs](https://www.whizlabs.com/) - Some Free Tests
-Whizlabs practice tests (there are ~7-8 tests with various questions) cover a majority of the knowledge you need to pass the exam.  I highly recommend paying for the practice exams.
+## [TutorialsDojo](https://www.tutorialsdojo.com/) - Some Free Tests
+Great practice exams!
 
 ## [A Cloud Guru](https://acloudguru.com/) - Not Free
-I found the practice test very helpful, but I think I got more value out of the Whizlabs practice exams.
+I found the practice test very helpful, but I think I got more value out of the TutorialsDojo practice exams.
 
+## [Whizlabs](https://www.whizlabs.com/) - Some Free Tests
+Great practice exams!
 
 # Study Guides
 ## [keenanromain SAA Study Guide on GitHub](https://github.com/keenanromain/AWS-SAA-C02-Study-Guide) - Free
